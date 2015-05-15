@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Anchor element with an ID but without a href or link text</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body id="top">
+<div class="l-container">
+    <div class="masthead">
+        <p>Accessibility Issues</p>
+        <a href="/">Home</a>
+    </div>
+    <div id="main" tabindex="-1">
+        <h1>Anchor element with an ID but without a href or link text</h1>
+<p><a id="content"></a></p>
+<h2 id="issue">Issue</h2>
+<p>Anchor element with an ID but without a href or link text</p>
+<pre><code>&lt;a id=&quot;content&quot;&gt;&lt;/a&gt;</code></pre>
+<h2 id="why-is-is-a-problem">Why is is a problem</h2>
+<p>note: I need to find out if this is an issue.  Does it cause odd behaviour for screen reader or key board users?</p>
+<h2 id="how-to-fix-it">How to fix it</h2>
+<p>Move its ID to a parent or nearby element</p>
+<pre><code>&lt;div id=&quot;content&quot;&gt;</code></pre>
+    </div>
+
+    <div class="footer">
+        Footer
+    </div></div>
+</body>
+</html>

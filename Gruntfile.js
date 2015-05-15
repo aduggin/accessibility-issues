@@ -11,7 +11,10 @@ module.exports = function(grunt) {
     config: {
       arrays: {
         clean: ['.sass-cache', 'dist'],
-        paths: ['/index.html', '/missing-h1.html'],
+        paths: [
+          '/index.html',
+          '/missing-h1.html',
+          '/anchor-with-id-no-href-or-text.html'],
         js: ['Gruntfile.js', 'tasks/*.js']
       },
       allHtml: 'dist/**/*.html',
@@ -33,8 +36,11 @@ module.exports = function(grunt) {
   grunt.registerTask('css', ['sass', 'autoprefixer', 'scsslint', 'csslint']);
   grunt.registerTask('js', ['jshint', 'jscs']);
   grunt.registerTask('links', ['connect:dev', 'linkChecker']);
-  grunt.registerTask('accessibility', ['connect:dev', 'tenon-ngrok']);
 
+  grunt.registerTask('accessibility', ['html-codesniffer', 'tenon-api']);
+  grunt.registerTask('html-codesniffer', ['clean', 'build',  'accessibility']);
+  grunt.registerTask('tenon-api', ['connect:dev', 'tenon-ngrok']);
+  
   grunt.registerTask('tenon-ngrok', 'Run tenon with ngrok', function() {
     var done = this.async();
 
