@@ -7,3 +7,9 @@ h2,
 h3 {
   color: $color-headings;
 }
+
+pre {
+  background: $color-black;
+  color: $color-white;
+  padding: 20px;
+}
