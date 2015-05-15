@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ this.page.title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<a id="top"></a>
+<div class="l-container">
+    {{> masthead}}
+
+    <div id="main" tabindex="-1">
+        <h1>{{ this.page.title }}</h1>
+        {{#markdown}}
+            {{> body}}
+        {{/markdown}}
+    </div>
+
+    {{> footer}}
+</div>
+</body>
+</html>
