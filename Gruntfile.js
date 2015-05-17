@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 
   grunt.task.loadTasks('tasks');
 
-  grunt.registerTask('default', ['clean', 'build', 'connect:keepalive']);
+  grunt.registerTask('default', ['clean', 'build', 'concurrent:connect-watch']);
   grunt.registerTask('build', ['assemble', 'css']);
   grunt.registerTask('test', ['html', 'css', 'js', 'links']);
 

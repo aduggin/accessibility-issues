@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Accessibility Issues!"
+title: "Accessibility Issues"
 posted: 2015-05-14
 ---
 
