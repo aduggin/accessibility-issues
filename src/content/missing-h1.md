@@ -1,6 +1,7 @@
 ---
 title: "Missing H1"
 posted: 2015-05-14
+layout: "main-no-h1.html"
 ---
 
 ## Why is is a problem
