@@ -37,10 +37,11 @@ module.exports = function(grunt) {
   grunt.registerTask('js', ['jshint', 'jscs']);
   grunt.registerTask('links', ['connect:dev', 'linkChecker']);
 
-  grunt.registerTask('accessibility', ['html-codesniffer', 'tenon-api']);
+  grunt.registerTask('access', ['html-codesniffer', 'tenon-api']);
   grunt.registerTask('html-codesniffer', ['clean', 'build',  'accessibility']);
   grunt.registerTask('tenon-api', ['connect:dev', 'tenon-ngrok']);
-  
+  grunt.registerTask('chrome-access', ['connect:dev', 'a11y']);
+
   grunt.registerTask('tenon-ngrok', 'Run tenon with ngrok', function() {
     var done = this.async();
 
