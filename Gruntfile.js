@@ -12,9 +12,12 @@ module.exports = function(grunt) {
       arrays: {
         clean: ['.sass-cache', 'dist'],
         paths: [
+          '/anchor-with-id-no-href-or-text.html',
           '/index.html',
           '/missing-h1.html',
-          '/anchor-with-id-no-href-or-text.html'],
+          '/missing-lang.html',
+          '/missing-title.html'
+        ],
         js: ['Gruntfile.js', 'tasks/*.js']
       },
       allHtml: 'dist/**/*.html',
