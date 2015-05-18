@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.10'
+before_install:
+- gem install scss-lint
+- npm install -g grunt-cli
+after_success:
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && grunt deploy
+env:
+  global:
+    secure: tNZmNwvOoc6xkMJ6ZE3mnC28XpbHHWt/0DhDy3Fr7ajeygyBVvJvj3n6s+kLd258y6cz/DVhs8Bwny+zhcFk6WU9jge7RWWyvWzC+UEwdnEsIT/QqK4865gVn2iTZ0PGQ9/T/EYZFsUZgCItWQd+RBKhmkJfiRBijN175XlfCZpXdG7sq+QmCW7gRO/JF5W3p1rWMOpeFJam64wfshQkcDVNPIuDKnd+yLOmBl1/16rO2IVuxA+VIGpodHdFOxMD6PrODX0UbmWTZZw+YhMyc+3imR9ZKx3Q5RLXAJ0uFqFDZEaURmtvEaib0u935EYP+BFzPhrEDXnOCm6BGAEBWecGdybhOwOWj62rNRy/FXlzREHFiGmIeR8z3m5j7ZTNgoA+8YmgvyzFKVsDPxU/kj3vDXZD6nhD52myY07oxU9ZAQRDeeRI3A0BZMd1GlIa+A+gRP7u+ZmFjZCnJzqGoS052fecUtk3qtXWK8DIY6mvkvbujd+nWIw4sCCLsAdyAhRVPwZXj0IpLjfwGjy4gohJBtraNsCCZ7z8az8e3ftcquwSmYzehCv65yqDnZqo+DXinoURgXqJtHkSQbdkZ6gE76FHeXVVeQFoe95RQM62gCNlVT34Mv9Qh01R7FsqdAxMC57GT8jK7BhoRCVcBO6r5ceOecnqwVwixumwEH4=
