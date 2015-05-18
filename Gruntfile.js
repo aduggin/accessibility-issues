@@ -13,11 +13,11 @@ module.exports = function(grunt) {
       arrays: {
         clean: ['.sass-cache', 'dist'],
         paths: [
-          '/anchor-with-id-no-href-or-text.html',
-          '/index.html',
-          '/missing-h1.html',
-          '/missing-lang.html',
-          '/missing-title.html'
+          basePath + '/anchor-with-id-no-href-or-text.html',
+          basePath + '/index.html',
+          basePath + '/missing-h1.html',
+          basePath + '/missing-lang.html',
+          basePath + '/missing-title.html'
         ],
         js: ['Gruntfile.js', 'tasks/*.js']
       },
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['clean', 'build', 'concurrent:connect-watch-open']);
   grunt.registerTask('build', ['assemble', 'css']);
   grunt.registerTask('test', ['html', 'css', 'js', 'links']);
-  grunt.registerTask('access', ['html-codesniffer', 'chrome-access', 'tenon-api']);
+  grunt.registerTask('access', ['html-codesniffer', 'chrome-access', 'tenon-ngrok']);
   grunt.registerTask('deploy', ['gh-pages']);
 
   grunt.registerTask('html', ['htmllint']);
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     var done = this.async();
 
     ngrok.connect({
-      port: 5000,
+      port: grunt.config.get().config.port
     }, function(err, url) {
       if (err !== null) {
         grunt.fail.fatal(err);
