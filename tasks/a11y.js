@@ -9,10 +9,12 @@ module.exports = function(grunt) {
             var config = grunt.config.get().config,
               paths = config.arrays.paths,
               port = config.port,
+              baseUrl = config.baseUrl,
+              basePath = config.basePath,
               urls = [];
 
             for (var i = 0; i < paths.length; i++) {
-              urls[i] = 'http://localhost:' + port + '/' + paths[i];
+              urls[i] = baseUrl + ':' + port + basePath + paths[i];
             }
 
             return urls;
