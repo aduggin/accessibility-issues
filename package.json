@@ -1,7 +1,7 @@
 {
   "name": "accessibility-issues",
   "version": "0.0.1",
-  "description": "## The Plan * Capture accessibility issues is a list/table * Create a page for each issue with an example of the issue * Test each issue with Tenon, WAVE, BBC Accessibility Standards Checker, Accessibility Developer Tools and capture if the tool finds the issue * Explain who the issue affects * Show how to fix the issue",
+  "description": "A website to demonstrate and explain common accessibility issues and to audit automated accessibility tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/aduggin/accessibility-issues.git"
   },
-  "author": "",
+  "author": "Alistair Duggin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aduggin/accessibility-issues/issues"
