@@ -13,8 +13,10 @@ and to audit automated accessibility tools.
 <th scope="col">Tenon</th>
 <th scope="col">Wave</th>
 <th scope="col">Sniffer</th>
+<th scope="col">BBC</th>
 <th scope="col">Chrome</th>
 <th scope="col">v.Nu</th>
+<th scope="col">M_or_A</th>
 <th scope="col">WCAG 2.0</th>
 <th scope="col">Info</th>
 </tr>
@@ -25,8 +27,10 @@ and to audit automated accessibility tools.
 <td class="tool-result tool-result--tenon yes">Yes</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
 <td class="tool-result tool-result--codesniffer yes">Yes</td>
+<td class="tool-result tool-result--bbc">insert</td>
 <td class="tool-result tool-result--chrome yes">Yes</td>
 <td class="tool-result tool-result--vnu no">No</td>
+<td>Auto</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1 Language of Page</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/H57.html">H57</a></td>
 </tr>
@@ -35,8 +39,10 @@ and to audit automated accessibility tools.
 <td class="tool-result tool-result--tenon">insert</td>
 <td class="tool-result tool-result--wave">insert</td>
 <td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--bbc">insert</td>
 <td class="tool-result tool-result--chrome">insert</td>
 <td class="tool-result tool-result--vnu">xxxxx</td>
+<td>insert</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
 </tr>
@@ -45,8 +51,10 @@ and to audit automated accessibility tools.
 <td class="tool-result tool-result--tenon">insert</td>
 <td class="tool-result tool-result--wave">insert</td>
 <td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--bbc">insert</td>
 <td class="tool-result tool-result--chrome">insert</td>
 <td class="tool-result tool-result--vnu">xxxxx</td>
+<td>insert</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
 </tr>
@@ -55,8 +63,22 @@ and to audit automated accessibility tools.
 <td class="tool-result tool-result--tenon">insert</td>
 <td class="tool-result tool-result--wave">insert</td>
 <td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--bbc">insert</td>
 <td class="tool-result tool-result--chrome">insert</td>
 <td class="tool-result tool-result--vnu">xxxxx</td>
+<td>insert</td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
+<td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
+</tr>
+<tr>
+<td>Insufficient color contrast</td>
+<td class="tool-result tool-result--tenon">insert</td>
+<td class="tool-result tool-result--wave">insert</td>
+<td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--bbc">insert</td>
+<td class="tool-result tool-result--chrome">insert</td>
+<td class="tool-result tool-result--vnu">xxxxx</td>
+<td>insert</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
 </tr>
