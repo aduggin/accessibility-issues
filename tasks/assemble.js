@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       pages: {
         files: [{
           cwd: './src/content/',
-          dest: './dist/',
+          dest: './dist' + '<%= config.basePath  %>',
           expand: true,
           src: '**/*.md'
         }]

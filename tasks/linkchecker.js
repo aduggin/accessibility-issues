@@ -9,7 +9,8 @@ module.exports = function(grunt) {
       dev: {
         site: 'localhost',
         options: {
-          initialPort: 5000
+          initialPort: '<%= config.port  %>',
+          initialPath: '<%= config.basePath  %>'
         }
       }
     });
