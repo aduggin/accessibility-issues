@@ -4,7 +4,7 @@ posted: 2015-05-14
 layout: "main-no-h1.html"
 ---
 
-## Why is is a problem
+## Why is it a problem
 H1 is used by screen reader users.  Also used by search engines so effects SEO
 
 

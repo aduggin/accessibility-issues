@@ -11,7 +11,7 @@ Missing lang attribute
 <html>
 ```
 
-## Why is is a problem
+## Why is it a problem
 Screen reader will not pronounce text on page correctly
 
 ## How to fix it

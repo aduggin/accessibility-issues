@@ -8,7 +8,7 @@ posted: 2015-05-19
 ## Issue
 Insufficient contrast between text and its background
 
-## Why is is a problem
+## Why is it a problem
 People with moderately low vision will not be able to read the text
 
 ## How to fix it

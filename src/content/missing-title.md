@@ -12,7 +12,7 @@ Missing title
 </head>
 ```
 
-## Why is is a problem
+## Why is it a problem
 Screen reader will not be able to read out the title of the page.
 
 ## How to fix it
