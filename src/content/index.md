@@ -71,16 +71,16 @@ and to audit automated accessibility tools.
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
 </tr>
 <tr>
-<td>Insufficient color contrast</td>
-<td class="tool-result tool-result--tenon">insert</td>
-<td class="tool-result tool-result--wave">insert</td>
-<td class="tool-result tool-result--codesniffer">insert</td>
+<td><a href="/accessibility-issues/insufficient-color-contrast.html">Insufficient color contrast</a></td>
+<td class="tool-result tool-result--tenon no">No</td>
+<td class="tool-result tool-result--wave yes">Yes</td>
+<td class="tool-result tool-result--codesniffer no">No</td>
 <td class="tool-result tool-result--bbc">insert</td>
-<td class="tool-result tool-result--chrome">insert</td>
-<td class="tool-result tool-result--vnu">xxxxx</td>
-<td>insert</td>
-<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
-<td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
+<td class="tool-result tool-result--chrome yes">Yes</td>
+<td class="tool-result tool-result--vnu no">No</td>
+<td>Auto</td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast (Minimum)</a></td>
+<td><a href="http://www.w3.org/TR/WCAG20-TECHS/G18.html">G18</a></td>
 </tr>
 </tbody>
 </table>
