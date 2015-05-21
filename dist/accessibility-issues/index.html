@@ -9,12 +9,28 @@
 <div class="l-container">
     <div class="masthead">
         <p>Accessibility Issues</p>
-        <a href="/accessibility-issues/">Home</a>
+        <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="/accessibility-issues/">Home</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/index.html#issues">Issues</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/index.html#tools">Tools</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/index.html#resources">Resources</a>
+            </li>
+        </ul>
+        </nav>
     </div>
     <div id="main" tabindex="-1">
         <h1>Accessibility Issues</h1>
 <p>A website to demonstrate and explain common accessibility issues
 and to audit automated accessibility tools.</p>
+<h2 id="issues">Issues</h2>
 <table>
 <thead>
 <tr>
@@ -46,33 +62,33 @@ and to audit automated accessibility tools.</p>
 <td>insert</td>
 <td class="tool-result tool-result--tenon">insert</td>
 <td class="tool-result tool-result--wave">insert</td>
-<td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--codesniffer yes">Yes</td>
 <td class="tool-result tool-result--chrome">insert</td>
 <td class="tool-result tool-result--vnu">insert</td>
-<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
-<td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2 Page Titled</a></td>
+<td><a href="http://www.w3.org/TR/WCAG20-TECHS/H25.html">H25</a></td>
 </tr>
 <tr>
 <td><a href="/accessibility-issues/missing-h1.html">Missing H1</a></td>
 <td>insert</td>
 <td class="tool-result tool-result--tenon">insert</td>
 <td class="tool-result tool-result--wave">insert</td>
-<td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--codesniffer yes">Yes</td>
 <td class="tool-result tool-result--chrome">insert</td>
 <td class="tool-result tool-result--vnu">insert</td>
-<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
-<td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></td>
+<td><a href="http://www.w3.org/TR/WCAG20-TECHS/G141.html">G141</a></td>
 </tr>
 <tr>
 <td><a href="/accessibility-issues/anchor-with-id-no-href-or-text.html">Anchor element with an ID but without an href or link text</a></td>
 <td>insert</td>
-<td class="tool-result tool-result--tenon">insert</td>
-<td class="tool-result tool-result--wave">insert</td>
-<td class="tool-result tool-result--codesniffer">insert</td>
-<td class="tool-result tool-result--chrome">insert</td>
+<td class="tool-result tool-result--tenon no">No</td>
+<td class="tool-result tool-result--wave no">No</td>
+<td class="tool-result tool-result--codesniffer yes">Yes</td>
+<td class="tool-result tool-result--chrome yes">Yes</td>
 <td class="tool-result tool-result--vnu">insert</td>
-<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
-<td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></td>
+<td><a href="http://www.w3.org/TR/WCAG20-TECHS/H91.html">H91</a></td>
 </tr>
 <tr>
 <td><a href="/accessibility-issues/insufficient-color-contrast.html">Insufficient color contrast</a></td>
@@ -87,10 +103,34 @@ and to audit automated accessibility tools.</p>
 </tr>
 </tbody>
 </table>
+
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="http://tenon.io/">Tenon API</a></li>
+<li>[Wave API] (<a href="http://wave.webaim.org/api/">http://wave.webaim.org/api/</a>)</li>
+<li><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML_CodeSniffer</a>
+** <a href="https://github.com/yargalot/AccessSniff">AccessSniff</a> - NodeJS library to run HTML_CodeSniffer, with Grunt and Gulp plugins</li>
+<li><a href="http://addyosmani.github.io/a11y/">Google Chrome Accessibility Developer Tools (a11y)</a></li>
+<li>[The Nu Html Checker (v.Nu)] (<a href="https://validator.github.io/validator/">https://validator.github.io/validator/</a>)</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html">Understanding WCAG 2.0</a></li>
+<li><a href="http://www.w3.org/TR/WCAG20-TECHS/Overview.html">Techniques for WCAG 2.0</a></li>
+</ul>
     </div>
 
     <div class="footer">
-        Footer
+        <nav class="footer-nav">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/dugboticus">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://github.com/aduggin/accessibility-issues">Github</a>
+                </li>
+            </ul>
+        </nav>
     </div></div>
 </body>
 </html>

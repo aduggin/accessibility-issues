@@ -1,0 +1,51 @@
+# Resources to read
+* https://github.com/cucumber-ltd/bbc-a11y/tree/master/standards
+* My Evernote notes on Tenon Issues
+* Go through my BBC Olympics presentation - what issues got through?
+* Read all DAC MAS reports - and extract issues
+* http://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html#contents
+* http://www.w3.org/TR/WCAG20-TECHS/Overview.html#contents - how many techniques?
+* http://www.w3.org/WAI/WCAG20/quickref/
+* https://github.com/nature/pa11y/wiki/HTML-CodeSniffer-Rules
+* https://mita.gov.mt/en/eGov/DevelopmentToolkit/Pages/Articles/Common%20Accessibility%20Pitfalls%20in%20eService%20Development/The-top-10-common-Accessibility-Issues-.aspx
+* http://pauljadam.com/#/demos
+
+
+#Issues to add
+* HTML does not validate
+* missing label in form
+* missing for/id for form label
+* Image missing an alt attribute (automatable)
+* Image that conveys meaning does not contain an alt attribute that communicates the meaning (manual)
+    ** example include editorial image
+    ** image with text in it (button, navigation)
+    ** info graphic
+    ** icon
+* Font Icon does not contain text
+* Font icon does not hide css content (http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html)
+* Colour alone is being used to communicate information
+* Adjacent image and text links to the same place
+* Link text to that not convey information about destination - e.g 'Click here'
+* Table used for layout
+* Focus not set to modal
+* Close button not focusable
+* Inifinite scroll with no way to tab out of it
+* No focus state on focable items (links, buttons and form items)
+
+
+
+
+<tr>
+<td><a href="/accessibility-issues/anchor-with-id-no-href-or-text.html">Anchor element with an ID but without an href or link text</a></td>
+<td>insert</td>
+<td class="tool-result tool-result--tenon">insert</td>
+<td class="tool-result tool-result--wave">insert</td>
+<td class="tool-result tool-result--codesniffer">insert</td>
+<td class="tool-result tool-result--chrome">insert</td>
+<td class="tool-result tool-result--vnu">insert</td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/INSERT.html">insert</a></td>
+<td><a href="http://www.w3.org/TR/WCAG20-TECHS/INSERT.html">ins</a></td>
+</tr>
+
+
+
