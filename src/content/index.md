@@ -82,11 +82,10 @@ and to audit automated accessibility tools.
 
 ## Tools
 * [Tenon API](http://tenon.io/)
-* [Wave API] (http://wave.webaim.org/api/)
-* [HTML_CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
-** [AccessSniff](https://github.com/yargalot/AccessSniff) - NodeJS library to run HTML_CodeSniffer, with Grunt and Gulp plugins
-* [Google Chrome Accessibility Developer Tools (a11y)](http://addyosmani.github.io/a11y/)
-* [The Nu Html Checker (v.Nu)] (https://validator.github.io/validator/)
+* [Wave API](http://wave.webaim.org/api/)
+* [AccessSniff](https://github.com/yargalot/AccessSniff) - NodeJS library to run [HTML_CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/), with Grunt and Gulp plugins
+* [Google Chrome Accessibility Developer Tools](http://addyosmani.github.io/a11y/) (a11y)
+* [The Nu Html Checker](https://validator.github.io/validator/) (v.Nu)
 
 
 ## Resources
