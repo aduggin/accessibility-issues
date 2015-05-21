@@ -11,22 +11,22 @@
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TQXJJ9');</script><div class="l-container">
+})(window,document,'script','dataLayer','GTM-PVNNG3');</script><div class="l-container">
     <div class="masthead">
         <p>Accessibility Issues</p>
         <nav class="main-nav">
         <ul>
             <li>
-                <a href="/accessibility-issues/">Home</a>
+                <a href="/accessibility-issues/" data-ga-label="home">Home</a>
             </li>
             <li>
-                <a href="/accessibility-issues/index.html#issues">Issues</a>
+                <a href="/accessibility-issues/index.html#issues" data-ga-label="issues">Issues</a>
             </li>
             <li>
-                <a href="/accessibility-issues/index.html#tools">Tools</a>
+                <a href="/accessibility-issues/index.html#tools" data-ga-label="tools">Tools</a>
             </li>
             <li>
-                <a href="/accessibility-issues/index.html#resources">Resources</a>
+                <a href="/accessibility-issues/index.html#resources" data-ga-label="resources">Resources</a>
             </li>
         </ul>
         </nav>
@@ -50,13 +50,22 @@
         <nav class="footer-nav">
             <ul>
                 <li>
-                    <a href="https://twitter.com/dugboticus">Twitter</a>
+                    <a href="https://twitter.com/dugboticus" data-ga-label="twitter">Twitter</a>
                 </li>
                 <li>
-                    <a href="https://github.com/aduggin/accessibility-issues">Github</a>
+                    <a href="https://github.com/aduggin/accessibility-issues" data-ga-label="github">Github</a>
                 </li>
             </ul>
         </nav>
-    </div></div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function() {
+            $('a[data-ga-label]').on('click', function() {
+                ga('send', 'event', 'link', 'click', $(this).data('ga-label'), location);
+                return false;
+            });
+        });
+    </script></div>
 </body>
 </html>
