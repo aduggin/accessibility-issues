@@ -14,6 +14,7 @@ module.exports = function(grunt) {
         clean: ['.sass-cache', 'dist'],
         paths: [
           basePath + '/anchor-with-id-no-href-or-text.html',
+          basePath + '/contribute.html',
           basePath + '/index.html',
           basePath + '/insufficient-color-contrast.html',
           basePath + '/missing-h1.html',
