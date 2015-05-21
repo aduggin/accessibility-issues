@@ -29,6 +29,9 @@
             <li>
                 <a href="/accessibility-issues/index.html#resources" data-ga-label="resources">Resources</a>
             </li>
+            <li>
+                <a href="/accessibility-issues/contribute.html" data-ga-label="contribute">Contribute</a>
+            </li>
         </ul>
         </nav>
     </div>
@@ -113,11 +116,10 @@ and to audit automated accessibility tools.</p>
 <h2 id="tools">Tools</h2>
 <ul>
 <li><a href="http://tenon.io/">Tenon API</a></li>
-<li>[Wave API] (<a href="http://wave.webaim.org/api/">http://wave.webaim.org/api/</a>)</li>
-<li><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML_CodeSniffer</a>
-** <a href="https://github.com/yargalot/AccessSniff">AccessSniff</a> - NodeJS library to run HTML_CodeSniffer, with Grunt and Gulp plugins</li>
-<li><a href="http://addyosmani.github.io/a11y/">Google Chrome Accessibility Developer Tools (a11y)</a></li>
-<li>[The Nu Html Checker (v.Nu)] (<a href="https://validator.github.io/validator/">https://validator.github.io/validator/</a>)</li>
+<li><a href="http://wave.webaim.org/api/">Wave API</a></li>
+<li><a href="https://github.com/yargalot/AccessSniff">AccessSniff</a> - NodeJS library to run <a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML_CodeSniffer</a>, with Grunt and Gulp plugins</li>
+<li><a href="http://addyosmani.github.io/a11y/">Google Chrome Accessibility Developer Tools</a> (a11y)</li>
+<li><a href="https://validator.github.io/validator/">The Nu Html Checker</a> (v.Nu)</li>
 </ul>
 <h2 id="resources">Resources</h2>
 <ul>
@@ -137,15 +139,6 @@ and to audit automated accessibility tools.</p>
                 </li>
             </ul>
         </nav>
-    </div>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script>
-        $(function() {
-            $('a[data-ga-label]').on('click', function() {
-                ga('send', 'event', 'link', 'click', $(this).data('ga-label'), location);
-                return false;
-            });
-        });
-    </script></div>
+    </div></div>
 </body>
 </html>
