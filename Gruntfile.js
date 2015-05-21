@@ -40,6 +40,7 @@ module.exports = function(grunt) {
   grunt.registerTask('develop', ['clean', 'build', 'concurrent:connect-watch-open']);
   grunt.registerTask('build', ['assemble', 'css']);
   grunt.registerTask('test', ['html', 'css', 'js', 'links']);
+  grunt.registerTask('test:ci', ['clean', 'build', 'html', 'css', 'js', 'links']);
   grunt.registerTask('access', ['html-codesniffer', 'connect:dev', 'a11y', 'tenon-ngrok']);
   grunt.registerTask('deploy', ['gh-pages']);
 
