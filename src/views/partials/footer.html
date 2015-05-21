@@ -10,12 +10,3 @@
         </ul>
     </nav>
 </div>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script>
-    $(function() {
-        $('a[data-ga-label]').on('click', function() {
-            ga('send', 'event', 'link', 'click', $(this).data('ga-label'), location);
-            return false;
-        });
-    });
-</script>
