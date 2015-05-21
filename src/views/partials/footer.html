@@ -2,11 +2,20 @@
     <nav class="footer-nav">
         <ul>
             <li>
-                <a href="https://twitter.com/dugboticus">Twitter</a>
+                <a href="https://twitter.com/dugboticus" data-ga-label="twitter">Twitter</a>
             </li>
             <li>
-                <a href="https://github.com/aduggin/accessibility-issues">Github</a>
+                <a href="https://github.com/aduggin/accessibility-issues" data-ga-label="github">Github</a>
             </li>
         </ul>
     </nav>
 </div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    $(function() {
+        $('a[data-ga-label]').on('click', function() {
+            ga('send', 'event', 'link', 'click', $(this).data('ga-label'), location);
+            return false;
+        });
+    });
+</script>
