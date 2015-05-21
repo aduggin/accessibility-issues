@@ -35,19 +35,21 @@ module.exports = function(grunt) {
 
   grunt.task.loadTasks('tasks');
 
-  grunt.registerTask('default', ['clean', 'build', 'concurrent:connect-watch-open']);
+  grunt.registerTask('default', ['develop']);
+
+  grunt.registerTask('develop', ['clean', 'build', 'concurrent:connect-watch-open']);
   grunt.registerTask('build', ['assemble', 'css']);
   grunt.registerTask('test', ['html', 'css', 'js', 'links']);
-  grunt.registerTask('access', ['html-codesniffer', 'chrome-access', 'tenon-ngrok']);
+  grunt.registerTask('access', ['html-codesniffer', 'connect:dev', 'a11y', 'tenon-ngrok']);
   grunt.registerTask('deploy', ['gh-pages']);
 
   grunt.registerTask('html', ['htmllint']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'scsslint', 'csslint']);
   grunt.registerTask('js', ['jshint', 'jscs']);
   grunt.registerTask('links', ['connect:dev', 'linkChecker']);
-  grunt.registerTask('html-codesniffer', ['clean', 'build',  'accessibility']);
-  grunt.registerTask('tenon-api', ['connect:dev', 'tenon-ngrok']);
+  grunt.registerTask('html-codesniffer', ['clean', 'build',  'accessibility']); 
   grunt.registerTask('chrome-access', ['connect:dev', 'a11y']);
+  grunt.registerTask('tenon-api', ['connect:dev', 'tenon-ngrok']);
 
   grunt.registerTask('tenon-ngrok', 'Run tenon with ngrok', function() {
     var done = this.async();
