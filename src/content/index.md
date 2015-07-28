@@ -14,6 +14,7 @@ and to audit automated accessibility tools.
 <th scope="col">Automatable</th>
 <th scope="col">Tenon</th>
 <th scope="col">Wave</th>
+<th scope="col">aXe</th>
 <th scope="col">Sniffer</th>
 <th scope="col">Chrome</th>
 <th scope="col">v.Nu</th>
@@ -27,6 +28,7 @@ and to audit automated accessibility tools.
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon yes">Yes</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
+<td class="tool-result tool-result--axe yes">Yes</td>
 <td class="tool-result tool-result--codesniffer yes">Yes</td>
 <td class="tool-result tool-result--chrome yes">Yes</td>
 <td class="tool-result tool-result--vnu no">No</td>
@@ -35,42 +37,46 @@ and to audit automated accessibility tools.
 </tr>
 <tr>
 <td><a href="/accessibility-issues/missing-title.html">Missing page title</a></td>
-<td>insert</td>
-<td class="tool-result tool-result--tenon">insert</td>
-<td class="tool-result tool-result--wave">insert</td>
+<td>Automatable</td>
+<td class="tool-result tool-result--tenon yes">Yes</td>
+<td class="tool-result tool-result--wave yes">Yes</td>
+<td class="tool-result tool-result--axe yes">Yes</td>
 <td class="tool-result tool-result--codesniffer yes">Yes</td>
-<td class="tool-result tool-result--chrome">insert</td>
-<td class="tool-result tool-result--vnu">insert</td>
+<td class="tool-result tool-result--chrome yes">Yes</td>
+<td class="tool-result tool-result--vnu yes">Yes</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2 Page Titled</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/H25.html">H25</a></td>
 </tr>
 <tr>
 <td><a href="/accessibility-issues/missing-h1.html">Missing H1</a></td>
-<td>insert</td>
-<td class="tool-result tool-result--tenon">insert</td>
-<td class="tool-result tool-result--wave">insert</td>
+<td>Automatable</td>
+<td class="tool-result tool-result--tenon no">No</td>
+<td class="tool-result tool-result--wave alert">Yes (alert)</td>
+<td class="tool-result tool-result--axe no">No</td>
 <td class="tool-result tool-result--codesniffer yes">Yes</td>
-<td class="tool-result tool-result--chrome">insert</td>
-<td class="tool-result tool-result--vnu">insert</td>
+<td class="tool-result tool-result--chrome no">No</td>
+<td class="tool-result tool-result--vnu no">No</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/G141.html">G141</a></td>
 </tr>
 <tr>
 <td><a href="/accessibility-issues/anchor-with-id-no-href-or-text.html">Anchor element with an ID but without an href or link text</a></td>
-<td>insert</td>
+<td>Automatable</td>
 <td class="tool-result tool-result--tenon no">No</td>
 <td class="tool-result tool-result--wave no">No</td>
+<td class="tool-result tool-result--axe no">No</td>
 <td class="tool-result tool-result--codesniffer yes">Yes</td>
 <td class="tool-result tool-result--chrome yes">Yes</td>
-<td class="tool-result tool-result--vnu">insert</td>
+<td class="tool-result tool-result--vnu no">No</td>
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/H91.html">H91</a></td>
 </tr>
 <tr>
 <td><a href="/accessibility-issues/insufficient-color-contrast.html">Insufficient color contrast</a></td>
-<td>Auto</td>
+<td>Automatable</td>
 <td class="tool-result tool-result--tenon no">No</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
+<td class="tool-result tool-result--axe yes">Yes</td>
 <td class="tool-result tool-result--codesniffer no">No</td>
 <td class="tool-result tool-result--chrome yes">Yes</td>
 <td class="tool-result tool-result--vnu no">No</td>
@@ -83,6 +89,7 @@ and to audit automated accessibility tools.
 ## Tools
 * [Tenon API](http://tenon.io/)
 * [Wave API](http://wave.webaim.org/api/)
+* [aXe](http://www.deque.com/products/axe/)
 * [AccessSniff](https://github.com/yargalot/AccessSniff) - NodeJS library to run [HTML_CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/), with Grunt and Gulp plugins
 * [Google Chrome Accessibility Developer Tools](http://addyosmani.github.io/a11y/) (a11y)
 * [The Nu Html Checker](https://validator.github.io/validator/) (v.Nu)

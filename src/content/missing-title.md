@@ -5,7 +5,7 @@ layout: "main-no-title.html"
 ---
 
 ## Issue
-Missing title
+Page has no title
 
 ```
 <head>
@@ -13,10 +13,11 @@ Missing title
 ```
 
 ## Why is it a problem
-Screen reader will not be able to read out the title of the page.
+The page title is the first thing announced by screen readers (and some other assistive technologies) and is therefore an important wayfinding cue.
+
 
 ## How to fix it
-Add a unique page title to the page
+Add a title element with a title that is clear, informative, unique, and concise.
 
 ```
 <head>

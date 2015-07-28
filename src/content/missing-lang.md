@@ -5,7 +5,7 @@ layout: "main-no-lang.html"
 ---
 
 ## Issue
-Missing lang attribute
+The html element is missing a lang attribute
 
 ```
 <html>
