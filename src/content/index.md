@@ -95,6 +95,18 @@ and to audit automated accessibility tools.
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></td>
 <td></td>
 </tr>
+<tr>
+<td><a href="/accessibility-issues/image-no-alt.html">Image with no alt attribute</a></td>
+<td>Automatable</td>
+<td class="tool-result tool-result--tenon yes">Yes</td>
+<td class="tool-result tool-result--wave yes">Yes</td>
+<td class="tool-result tool-result--axe yes">Yes</td>
+<td class="tool-result tool-result--codesniffer yes">Yes</td>
+<td class="tool-result tool-result--chrome yes">Yes</td>
+<td class="tool-result tool-result--vnu yes">Yes</td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
