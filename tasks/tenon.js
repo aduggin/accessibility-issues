@@ -13,7 +13,8 @@ module.exports = function(grunt) {
         httpBase: httpBase,
         apiOptions: {
           projectID: 'accessibility_issues',
-          level: 'AAA'
+          level: 'AAA',
+          store: 1
         },
         force: true
       },
