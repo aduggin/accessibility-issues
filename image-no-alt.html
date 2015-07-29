@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Missing H1</title>
+    <link rel='stylesheet' href='/accessibility-issues/stylesheets/style.css' />
+</head>
+<body id="top">
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TQXJJ9"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PVNNG3');</script><div class="l-container">
+    <div class="masthead">
+        <p>Accessibility Issues</p>
+        <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="/accessibility-issues/" data-ga-label="home">Home</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/index.html#issues" data-ga-label="issues">Issues</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/index.html#tools" data-ga-label="tools">Tools</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/index.html#resources" data-ga-label="resources">Resources</a>
+            </li>
+            <li>
+                <a href="/accessibility-issues/contribute.html" data-ga-label="contribute">Contribute</a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div id="main" tabindex="-1">
+        <h1>Missing H1</h1>
+<h2 id="issue">Issue</h2>
+<p>Image with no alt attribute</p>
+<p><img src="https://www.google.com/images/errors/logo_sm_2_hr.png" /></p>
+<pre><code>&lt;img /&gt;</code></pre>
+<h2 id="why-is-it-a-problem">Why is it a problem</h2>
+<p>Screen reader will read out the src of the image</p>
+<h2 id="how-to-fix-it">How to fix it</h2>
+<p>Use the alt attribute to specify a short text alternative</p>
+<pre><code>&lt;img alt=&quot;Google&quot; /&gt;</code></pre>
+    </div>
+
+    <div class="footer">
+        <nav class="footer-nav">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/dugboticus" data-ga-label="twitter">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://github.com/aduggin/accessibility-issues" data-ga-label="github">Github</a>
+                </li>
+            </ul>
+        </nav>
+    </div></div>
+</body>
+</html>
