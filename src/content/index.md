@@ -83,6 +83,18 @@ and to audit automated accessibility tools.
 <td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast (Minimum)</a></td>
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/G18.html">G18</a></td>
 </tr>
+<tr>
+<td><a href="/accessibility-issues/empty-th.html">Empty TH</a></td>
+<td>Automatable</td>
+<td class="tool-result tool-result--tenon yes">Yes</td>
+<td class="tool-result tool-result--wave yes">Yes</td>
+<td class="tool-result tool-result--axe yes">Yes</td>
+<td class="tool-result tool-result--codesniffer no">No</td>
+<td class="tool-result tool-result--chrome no">No</td>
+<td class="tool-result tool-result--vnu no">no</td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 

@@ -5,7 +5,9 @@ module.exports = function(grunt) {
     'htmllint', {
       all: {
         options: {
-          ignore: 'Element “head” is missing a required instance of child element “title”.'
+          ignore: ['Element “head” is missing a required instance of child element “title”.',
+          'An “img” element must have an “alt” attribute, except under certain conditions.' +
+          ' For details, consult guidance on providing text alternatives for images.']
         },
         src: ['<%= config.allHtml  %>']
       }
