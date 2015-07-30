@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <title></title>
     <link rel='stylesheet' href='/accessibility-issues/stylesheets/style.css' />
 </head>
 <body id="top">
@@ -35,15 +36,16 @@
         </nav>
     </div>
     <div id="main" tabindex="-1">
-        <h1>Missing Title</h1>
+        <h1>Empty page title</h1>
 <h2 id="issue">Issue</h2>
-<p>Page has no title</p>
+<p>Empty page title</p>
 <pre><code>&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
 &lt;/head&gt;</code></pre>
 <h2 id="why-is-it-a-problem">Why is it a problem</h2>
 <p>The page title is the first thing announced by screen readers (and some other assistive technologies) and is therefore an important wayfinding cue.</p>
 <h2 id="how-to-fix-it">How to fix it</h2>
-<p>Add a title element with a title that is clear, informative, unique, and concise.</p>
+<p>Add a title that is clear, informative, unique, and concise.</p>
 <pre><code>&lt;head&gt;
     &lt;title&gt;Buying or selling your home - GOV.UK&lt;/title&gt;
 &lt;/head&gt;</code></pre>
