@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Missing H1</title>
+    <title>Content image with empty alt attribute</title>
     <link rel='stylesheet' href='/accessibility-issues/stylesheets/style.css' />
 </head>
 <body id="top">
@@ -36,13 +36,13 @@
         </nav>
     </div>
     <div id="main" tabindex="-1">
-        <h1>Missing H1</h1>
+        <h1>Content image with empty alt attribute</h1>
 <h2 id="issue">Issue</h2>
-<p>Image with no alt attribute</p>
+<p>Content image with empty alt attribute</p>
 <p><img src="https://www.google.com/images/errors/logo_sm_2_hr.png" /></p>
-<pre><code>&lt;img src=&quot;logo_sm_2_hr.png&quot; /&gt;</code></pre>
+<pre><code>&lt;img src=&quot;logo_sm_2_hr.png&quot; alt=&quot;&quot; /&gt;</code></pre>
 <h2 id="why-is-it-a-problem">Why is it a problem</h2>
-<p>Screen reader will read out the src of the image</p>
+<p>Screen reader user will be unaware of content of image as no alternative text provided</p>
 <h2 id="how-to-fix-it">How to fix it</h2>
 <p>Use the alt attribute to specify a short text alternative</p>
 <pre><code>&lt;img src=&quot;logo_sm_2_hr.png&quot; alt=&quot;Google&quot; /&gt;</code></pre>
