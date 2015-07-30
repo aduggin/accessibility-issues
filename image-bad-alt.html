@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Content image with empty alt attribute</title>
+    <title>Content image with useless text alternative</title>
     <link rel='stylesheet' href='/accessibility-issues/stylesheets/style.css' />
 </head>
 <body id="top">
@@ -36,13 +36,13 @@
         </nav>
     </div>
     <div id="main" tabindex="-1">
-        <h1>Content image with empty alt attribute</h1>
+        <h1>Content image with useless text alternative</h1>
 <h2 id="issue">Issue</h2>
-<p>Content image with empty alt attribute</p>
-<p><img src="https://www.google.com/images/errors/logo_sm_2_hr.png" alt="" /></p>
-<pre><code>&lt;img src=&quot;logo_sm_2_hr.png&quot; alt=&quot;&quot; /&gt;</code></pre>
+<p>Content image with useless text alternative</p>
+<p><img src="https://www.google.com/images/errors/logo_sm_2_hr.png" alt="alternative text" /></p>
+<pre><code>&lt;img src=&quot;logo_sm_2_hr.png&quot; alt=&quot;alternative text&quot; /&gt;</code></pre>
 <h2 id="why-is-it-a-problem">Why is it a problem</h2>
-<p>Screen reader user will be unaware of content of image as no alternative text provided</p>
+<p>Provided alternative text does not communicate image correctly so user not aware of correct content</p>
 <h2 id="how-to-fix-it">How to fix it</h2>
 <p>Use the alt attribute to specify a short text alternative</p>
 <pre><code>&lt;img src=&quot;logo_sm_2_hr.png&quot; alt=&quot;Google&quot; /&gt;</code></pre>
