@@ -21,6 +21,6 @@ Add a title element with a title that is clear, informative, unique, and concise
 
 ```
 <head>
-    <title>Title of page</title>
+    <title>Buying or selling your home - GOV.UK</title>
 </head>
 ```
