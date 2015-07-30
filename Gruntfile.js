@@ -14,16 +14,17 @@ module.exports = function(grunt) {
         clean: ['.sass-cache', 'dist'],
         paths: [
           basePath + 'anchor-with-id-no-href-or-text.html',
+          basePath + 'color-contrast-contrast.html',
           basePath + 'contribute.html',
+          basePath + 'h1-missing.html',
+          basePath + 'image-bad-alt.html',
           basePath + 'image-bad-alt.html',
           basePath + 'image-empty-alt.html',
-          basePath + 'empty-th.html',
           basePath + 'image-no-alt.html',
           basePath + 'index.html',
-          basePath + 'insufficient-color-contrast.html',
-          basePath + 'missing-h1.html',
-          basePath + 'missing-lang.html',
-          basePath + 'missing-title.html'
+          basePath + 'lang-missing.html',
+          basePath + 'th-empty.html',
+          basePath + 'title-missing.html'
         ],
         js: ['Gruntfile.js', 'tasks/*.js']
       },

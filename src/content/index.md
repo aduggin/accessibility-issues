@@ -60,7 +60,7 @@ and to audit automated accessibility tools.
 <td></td>
 </tr>
 <tr>
-<td><a href="/accessibility-issues/missing-h1.html">Missing H1</a></td>
+<td><a href="/accessibility-issues/h1-missing.html">Missing H1</a></td>
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon no">No</td>
 <td class="tool-result tool-result--wave alert">Yes (alert)</td>
@@ -72,7 +72,7 @@ and to audit automated accessibility tools.
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/G141.html">G141</a></td>
 </tr>
 <tr>
-<td><a href="/accessibility-issues/empty-th.html">Empty TH</a></td>
+<td><a href="/accessibility-issues/th-empty.html">Empty TH</a></td>
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon yes">Yes</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
@@ -84,7 +84,7 @@ and to audit automated accessibility tools.
 <td></td>
 </tr>
 <tr>
-<td><a href="/accessibility-issues/insufficient-color-contrast.html">Insufficient color contrast</a></td>
+<td><a href="/accessibility-issues/color-contrast-insufficient.html">Insufficient color contrast</a></td>
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon no">No</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
@@ -96,7 +96,7 @@ and to audit automated accessibility tools.
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/G18.html">G18</a></td>
 </tr>
 <tr>
-<td><a href="/accessibility-issues/missing-title.html">Missing page title</a></td>
+<td><a href="/accessibility-issues/title-missing.html">Missing page title</a></td>
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon yes">Yes</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
@@ -108,7 +108,7 @@ and to audit automated accessibility tools.
 <td><a href="http://www.w3.org/TR/WCAG20-TECHS/H25.html">H25</a></td>
 </tr>
 <tr>
-<td><a href="/accessibility-issues/missing-lang.html">Missing &#39;lang&#39; attribute on the HTML element</a></td>
+<td><a href="/accessibility-issues/lang-missing.html">Missing &#39;lang&#39; attribute on the HTML element</a></td>
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon yes">Yes</td>
 <td class="tool-result tool-result--wave yes">Yes</td>
