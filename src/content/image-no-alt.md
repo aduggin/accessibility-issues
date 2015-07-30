@@ -9,7 +9,7 @@ Image with no alt attribute
 
 <img src="https://www.google.com/images/errors/logo_sm_2_hr.png" />
 ```
-<img />
+<img src="logo_sm_2_hr.png" />
 ```
 
 ## Why is it a problem
@@ -20,5 +20,5 @@ Screen reader will read out the src of the image
 Use the alt attribute to specify a short text alternative
 
 ```
-<img alt="Google" />
+<img src="logo_sm_2_hr.png" alt="Google" />
 ```
