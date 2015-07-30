@@ -15,6 +15,7 @@ module.exports = function(grunt) {
         paths: [
           basePath + 'anchor-with-id-no-href-or-text.html',
           basePath + 'contribute.html',
+          basePath + 'image-empty-alt.html',
           basePath + 'empty-th.html',
           basePath + 'image-no-alt.html',
           basePath + 'index.html',
