@@ -23,6 +23,7 @@ module.exports = function(grunt) {
           basePath + 'image-no-alt.html',
           basePath + 'index.html',
           basePath + 'lang-missing.html',
+          basePath + 'text-small.html',
           basePath + 'th-empty.html',
           basePath + 'title-missing.html',
           basePath + 'title-empty.html'
