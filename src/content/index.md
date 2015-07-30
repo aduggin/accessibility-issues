@@ -48,6 +48,18 @@ and to audit automated accessibility tools.
 <td></td>
 </tr>
 <tr>
+<td><a href="/accessibility-issues/image-bad-alt.html">Content image with useless text alternative</a></td>
+<td>Manual</td>
+<td class="tool-result tool-result--tenon manual">n/a</td>
+<td class="tool-result tool-result--wave manual">n/a</td>
+<td class="tool-result tool-result--axe manual">n/a</td>
+<td class="tool-result tool-result--codesniffer manual">n/a</td>
+<td class="tool-result tool-result--chrome manual">n/a</td>
+<td class="tool-result tool-result--vnu manual">n/a</td>
+<td><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></td>
+<td></td>
+</tr>
+<tr>
 <td><a href="/accessibility-issues/missing-h1.html">Missing H1</a></td>
 <td>Automatable</td>
 <td class="tool-result tool-result--tenon no">No</td>
