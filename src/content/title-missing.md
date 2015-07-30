@@ -1,7 +1,7 @@
 ---
 title: "Missing Title"
 posted: 2015-05-14
-layout: "main-no-title.html"
+layout: "main-title-missing.html"
 ---
 
 ## Issue

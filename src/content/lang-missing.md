@@ -1,7 +1,7 @@
 ---
 title: "Missing Lang"
 posted: 2015-05-14
-layout: "main-no-lang.html"
+layout: "main-lang-missing.html"
 ---
 
 ## Issue

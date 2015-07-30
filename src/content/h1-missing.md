@@ -1,7 +1,7 @@
 ---
 title: "Missing H1"
 posted: 2015-05-14
-layout: "main-no-h1.html"
+layout: "main-h1-missing.html"
 ---
 
 Missing H1
