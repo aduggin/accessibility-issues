@@ -24,7 +24,8 @@ module.exports = function(grunt) {
           basePath + 'index.html',
           basePath + 'lang-missing.html',
           basePath + 'th-empty.html',
-          basePath + 'title-missing.html'
+          basePath + 'title-missing.html',
+          basePath + 'title-empty.html'
         ],
         js: ['Gruntfile.js', 'tasks/*.js']
       },
