@@ -7,7 +7,7 @@ posted: 2015-07-29
 
 Content image with empty alt attribute
 
-<img src="https://www.google.com/images/errors/logo_sm_2_hr.png" />
+<img src="https://www.google.com/images/errors/logo_sm_2_hr.png" alt="" />
 ```
 <img src="logo_sm_2_hr.png" alt="" />
 ```
