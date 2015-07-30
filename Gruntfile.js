@@ -57,7 +57,7 @@ module.exports = function(grunt) {
   grunt.registerTask('links', ['connect:dev', 'linkChecker']);
   grunt.registerTask('html-codesniffer', ['clean', 'build',  'accessibility']); 
   grunt.registerTask('chrome-access', ['connect:dev', 'a11y']);
-  grunt.registerTask('tenon-api', ['connect:dev', 'tenon-ngrok']);
+  grunt.registerTask('tunnel', ['connect:dev', 'ngrok']);
 
   grunt.registerTask('tenon-ngrok', 'Run tenon with ngrok', function() {
     var done = this.async();
@@ -73,6 +73,20 @@ module.exports = function(grunt) {
       grunt.config.set('tenon.options.httpBase', url);
       grunt.task.run('tenon:all');
       done();
+    });
+  });
+
+  grunt.registerTask('ngrok', 'Run ngrok', function() {
+    var done = this.async();
+
+    ngrok.connect({
+      port: grunt.config.get().config.port
+    }, function(err, url) {
+      if (err !== null) {
+        grunt.fail.fatal(err);
+        return done();
+      }
+      grunt.log.write('Exposing website: ' + url + basePath);
     });
   });
 };
